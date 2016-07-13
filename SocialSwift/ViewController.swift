@@ -27,5 +27,8 @@ class ViewController: UIViewController {
         InstagramHelper().openApp()
     }
     
+    @IBAction func openSnapchat(sender: UIButton) {
+        SnapchatHelper().add(user: "promise")
+    }
 }
 
