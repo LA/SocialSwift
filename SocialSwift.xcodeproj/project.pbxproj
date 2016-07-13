@@ -90,7 +90,6 @@
 				E8F973A01D36DBFA001DCB9E /* SocialSwift */,
 				E8F973B51D36DBFA001DCB9E /* SocialSwiftTests */,
 				E8F973C01D36DBFA001DCB9E /* SocialSwiftUITests */,
-				E8F9739F1D36DBFA001DCB9E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +101,7 @@
 				E8F973BD1D36DBFA001DCB9E /* SocialSwiftUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E8F973A01D36DBFA001DCB9E /* SocialSwift */ = {
@@ -134,6 +134,7 @@
 		E8F973C01D36DBFA001DCB9E /* SocialSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9739F1D36DBFA001DCB9E /* Products */,
 				E8F973C11D36DBFA001DCB9E /* SocialSwiftUITests.swift */,
 				E8F973C31D36DBFA001DCB9E /* Info.plist */,
 			);
