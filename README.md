@@ -23,7 +23,7 @@ Social Media Actions in Swift
     <string>y</string>
 </array>
 ```
-<code>Where x, y = some social media link (ex. x = twitter, y = instagram)</code>
+<code>Where x, y = some social media (ex. x = twitter, y = instagram)</code>
 ### Step 5:
 Use SocialSwift Methods to your heart's desire.
 
