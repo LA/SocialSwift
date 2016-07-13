@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82AD40E1D36E96A00A844EA /* Updates in Resources */ = {isa = PBXBuildFile; fileRef = E82AD40D1D36E96A00A844EA /* Updates */; };
 		E8F973A21D36DBFA001DCB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */; };
 		E8F973A41D36DBFA001DCB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973A31D36DBFA001DCB9E /* ViewController.swift */; };
 		E8F973A71D36DBFA001DCB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F973A51D36DBFA001DCB9E /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E82AD40D1D36E96A00A844EA /* Updates */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Updates; sourceTree = "<group>"; };
 		E8F9739E1D36DBFA001DCB9E /* SocialSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F973A31D36DBFA001DCB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				E8F973D31D36DC61001DCB9E /* InstagramHelper.swift */,
 				E8F973D51D36DC74001DCB9E /* TwitterHelper.swift */,
 				E8F973D11D36DC4C001DCB9E /* URLHelper.swift */,
+				E82AD40D1D36E96A00A844EA /* Updates */,
 				E8F973A51D36DBFA001DCB9E /* Main.storyboard */,
 				E8F973A81D36DBFA001DCB9E /* Assets.xcassets */,
 				E8F973AA1D36DBFA001DCB9E /* LaunchScreen.storyboard */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F973AC1D36DBFA001DCB9E /* LaunchScreen.storyboard in Resources */,
+				E82AD40E1D36E96A00A844EA /* Updates in Resources */,
 				E8F973A91D36DBFA001DCB9E /* Assets.xcassets in Resources */,
 				E8F973A71D36DBFA001DCB9E /* Main.storyboard in Resources */,
 			);
@@ -496,6 +500,7 @@
 				E8F973C81D36DBFA001DCB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8F973C91D36DBFA001DCB9E /* Build configuration list for PBXNativeTarget "SocialSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				E8F973CB1D36DBFA001DCB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8F973CC1D36DBFA001DCB9E /* Build configuration list for PBXNativeTarget "SocialSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				E8F973CE1D36DBFA001DCB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -32,10 +32,14 @@ class TwitterHelper {
     }
     
     func openProfile(ofUsername username: String?, withID id: String?) {
-        if let profileURL = NSURL.init(string: "twitter://user?screen_name=\(username)") {
-            urlHelper.openAction(withURL: profileURL)
-        } else if let profileURL = NSURL.init(string: "twitter://user?screen_name=\(id)") {
-            urlHelper.openAction(withURL: profileURL)
+        if username != nil {
+            if let profileURL = NSURL.init(string: "twitter://user?screen_name=\(username!)") {
+                urlHelper.openAction(withURL: profileURL)
+            }
+        } else if id != nil && username == nil {
+            if let profileURL = NSURL.init(string: "twitter://user?screen_name=\(id!)") {
+                urlHelper.openAction(withURL: profileURL)
+            }
         }
     }
     
@@ -53,7 +57,7 @@ class TwitterHelper {
     
     func post(message msg: String, inReplyToStatus id: String?) {
         // Use %20 for ' '
-        if id != nil {
+        if id == nil {
             if let postURL = NSURL.init(string: "post?message=\(msg)") {
                 urlHelper.openAction(withURL: postURL)
             }
