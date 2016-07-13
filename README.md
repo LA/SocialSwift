@@ -25,5 +25,5 @@ Social Media Actions in Swift
 ```
 <code>Where x, y = some social media link (ex. x = twitter, y = instagram)</code>
 ### Step 5:
-Use SocialSwiftMethods to your heart's desire.
+Use SocialSwift Methods to your heart's desire.
 
