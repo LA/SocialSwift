@@ -3,8 +3,9 @@ Social Media Actions in Swift
 
 ## Sample Project
 <i>The Sample Project <b>Currently</b> Contains the following classes:</i>
-* Instagram Helper
-* Twitter Helper
+* Instagram Helper (6 Methods)
+* Twitter Helper (7 Methods)
+* Snapchat Helper (1 Method)
 * URLHelper
 
 ## How to Use SocialSwift
