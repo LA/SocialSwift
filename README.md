@@ -14,7 +14,7 @@ Social Media Actions in Swift
 ### Step 2:
 <code>Locate your Info.plist, and right-click select Open As -> Source Code.</code>
 ### Step 3:
-<code>Locate the end of an array "</array>"</code>
+<code>Locate the end of an array "\</array>"</code>
 ### Step 4:
 <code>Go Down one Line and Paste the following:</code></br>
 ```swift
