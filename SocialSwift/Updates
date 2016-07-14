@@ -10,3 +10,6 @@ Version 0.16
 
 * Added SnapchatHelper.openApp()
 - - - - - - - - - - - - - - - - - - - -
+Version 0.2
+
+* Added FacebookHelper (4 Methods) - Untested

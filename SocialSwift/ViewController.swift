@@ -30,5 +30,9 @@ class ViewController: UIViewController {
     @IBAction func openSnapchat(sender: UIButton) {
         SnapchatHelper().add(user: "promise")
     }
+    
+    @IBAction func openFacebook(sender: UIButton) {
+        FacebookHelper().openFeed()
+    }
 }
 
