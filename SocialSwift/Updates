@@ -13,3 +13,12 @@ Version 0.16
 Version 0.2
 
 * Added FacebookHelper (4 Methods) - Untested
+- - - - - - - - - - - - - - - - - - - -
+Version 0.21
+
+* Added 4 Methods to Facebook Helper
+- - - - - - - - - - - - - - - - - - - -
+Version 0.25
+
+* Added 3 methods to FacebookHelper
+* Changed all methods to static methods

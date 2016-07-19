@@ -19,20 +19,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     @IBAction func openTwitter(sender: UIButton) {
-        TwitterHelper().openProfile(ofUsername: "AdarButel", withID: nil)
+        TwitterHelper.openProfile(ofUsername: "AdarButel", withID: nil)
     }
     
     @IBAction func openInstagram(sender: UIButton) {
-        InstagramHelper().openApp()
+        InstagramHelper.openApp()
     }
     
     @IBAction func openSnapchat(sender: UIButton) {
-        SnapchatHelper().add(user: "promise")
+        SnapchatHelper.add(user: "promise")
     }
     
     @IBAction func openFacebook(sender: UIButton) {
-        FacebookHelper().openFeed()
+        FacebookHelper.openEvents()
     }
 }
 

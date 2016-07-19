@@ -10,29 +10,45 @@ import Foundation
 
 class FacebookHelper {
     
-    let urlHelper = URLHelper()
-    
-    func openFriends() {
+    static func openFriends() {
         if let appFeedURL = NSURL.init(string: "fb://friends") {
-            urlHelper.openAction(withURL: appFeedURL)
+            URLHelper.openAction(withURL: appFeedURL)
         }
     }
     
-    func openFeed() {
+    static func openFeed() {
         if let feedURL = NSURL.init(string: "fb://feed") {
-            urlHelper.openAction(withURL: feedURL)
+            URLHelper.openAction(withURL: feedURL)
         }
     }
     
-    func openProfile() {
+    static func openProfile() {
         if let profileURL = NSURL.init(string: "fb://profile") {
-            urlHelper.openAction(withURL: profileURL)
+            URLHelper.openAction(withURL: profileURL)
         }
     }
     
-    func openToday() {
+    static func openToday() {
         if let todayURL = NSURL.init(string: "fb://today") {
-            urlHelper.openAction(withURL: todayURL)
+            URLHelper.openAction(withURL: todayURL)
+        }
+    }
+    
+    static func openPhotoAlbums() {
+        if let paURL = NSURL.init(string: "fb://albums") {
+            URLHelper.openAction(withURL: paURL)
+        }
+    }
+    
+    static func openChat(withUID uid: String) {
+        if let chatURL = NSURL.init(string: "fb://chat/(initWithUID:\(uid)") {
+            URLHelper.openAction(withURL: chatURL)
+        }
+    }
+    
+    static func openEvents() {
+        if let eventsURL = NSURL.init(string: "fb://events") {
+            URLHelper.openAction(withURL: eventsURL)
         }
     }
 }

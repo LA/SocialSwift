@@ -10,14 +10,15 @@ import Foundation
 import UIKit
 
 class URLHelper {
-    func schemeAvailable(scheme: String) -> Bool {
+    
+    static func schemeAvailable(scheme: String) -> Bool {
         if let url = NSURL.init(string: scheme) {
             return UIApplication.sharedApplication().canOpenURL(url)
         }
         return false
     }
     
-    func openAction(withURL url: NSURL) {
+    static func openAction(withURL url: NSURL) {
         if schemeAvailable(url.absoluteString) {
             UIApplication.sharedApplication().openURL(url)
         }

@@ -11,59 +11,57 @@ import UIKit
 
 class TwitterHelper {
     
-    let urlHelper = URLHelper()
-    
-    func openTimeline() {
+    static func openTimeline() {
         if let timelineURL = NSURL.init(string: "twitter://timeline") {
-            urlHelper.openAction(withURL: timelineURL)
+            URLHelper.openAction(withURL: timelineURL)
         }
     }
     
-    func openMentions() {
+    static func openMentions() {
         if let mentURL = NSURL.init(string: "twitter://mentions") {
-            urlHelper.openAction(withURL: mentURL)
+            URLHelper.openAction(withURL: mentURL)
         }
     }
     
-    func openMessages() {
+    static func openMessages() {
         if let msgURL = NSURL.init(string: "twitter://mentions") {
-            urlHelper.openAction(withURL: msgURL)
+            URLHelper.openAction(withURL: msgURL)
         }
     }
     
-    func openProfile(ofUsername username: String?, withID id: String?) {
+    static func openProfile(ofUsername username: String?, withID id: String?) {
         if username != nil {
             if let profileURL = NSURL.init(string: "twitter://user?screen_name=\(username!)") {
-                urlHelper.openAction(withURL: profileURL)
+                URLHelper.openAction(withURL: profileURL)
             }
         } else if id != nil && username == nil {
             if let profileURL = NSURL.init(string: "twitter://user?screen_name=\(id!)") {
-                urlHelper.openAction(withURL: profileURL)
+                URLHelper.openAction(withURL: profileURL)
             }
         }
     }
     
-    func openStatus(withID id: String) {
+    static func openStatus(withID id: String) {
         if let mediaURL = NSURL.init(string: "twitter://status?id=\(id)") {
-            urlHelper.openAction(withURL: mediaURL)
+            URLHelper.openAction(withURL: mediaURL)
         }
     }
     
-    func openSearch(withQuery query: String) {
+    static func openSearch(withQuery query: String) {
         if let searchURL = NSURL.init(string: "search?query=%23\(query)") {
-            urlHelper.openAction(withURL: searchURL)
+            URLHelper.openAction(withURL: searchURL)
         }
     }
     
-    func post(message msg: String, inReplyToStatus id: String?) {
+    static func post(message msg: String, inReplyToStatus id: String?) {
         // Use %20 for ' '
         if id == nil {
             if let postURL = NSURL.init(string: "post?message=\(msg)") {
-                urlHelper.openAction(withURL: postURL)
+                URLHelper.openAction(withURL: postURL)
             }
         } else {
             if let postURL = NSURL.init(string: "post?message=\(msg)&in_reply_to_status_id=\(id)") {
-                urlHelper.openAction(withURL: postURL)
+                URLHelper.openAction(withURL: postURL)
             }
         }
     }
