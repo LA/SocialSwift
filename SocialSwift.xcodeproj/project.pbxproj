@@ -11,6 +11,8 @@
 		E81E14641D42F17B00FC02FE /* SMSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81E14631D42F17B00FC02FE /* SMSHelper.swift */; };
 		E82AD40E1D36E96A00A844EA /* Updates in Resources */ = {isa = PBXBuildFile; fileRef = E82AD40D1D36E96A00A844EA /* Updates */; };
 		E82AD4101D36EAE400A844EA /* SnapchatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */; };
+		E86F3BF31D43183600F46261 /* LinkedInHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BF21D43183600F46261 /* LinkedInHelper.swift */; };
+		E86F3BF51D431B1F00F46261 /* YoutubeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BF41D431B1F00F46261 /* YoutubeHelper.swift */; };
 		E8F973A21D36DBFA001DCB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */; };
 		E8F973A41D36DBFA001DCB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973A31D36DBFA001DCB9E /* ViewController.swift */; };
 		E8F973A71D36DBFA001DCB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F973A51D36DBFA001DCB9E /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		E81E14631D42F17B00FC02FE /* SMSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSHelper.swift; sourceTree = "<group>"; };
 		E82AD40D1D36E96A00A844EA /* Updates */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Updates; sourceTree = "<group>"; };
 		E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatHelper.swift; sourceTree = "<group>"; };
+		E86F3BF21D43183600F46261 /* LinkedInHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInHelper.swift; sourceTree = "<group>"; };
+		E86F3BF41D431B1F00F46261 /* YoutubeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeHelper.swift; sourceTree = "<group>"; };
 		E8F9739E1D36DBFA001DCB9E /* SocialSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F973A31D36DBFA001DCB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,8 +98,10 @@
 				E818DEF71D375A490035365A /* FacebookHelper.swift */,
 				E8F973D31D36DC61001DCB9E /* InstagramHelper.swift */,
 				E8F973D51D36DC74001DCB9E /* TwitterHelper.swift */,
+				E86F3BF21D43183600F46261 /* LinkedInHelper.swift */,
 				E81E14631D42F17B00FC02FE /* SMSHelper.swift */,
 				E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */,
+				E86F3BF41D431B1F00F46261 /* YoutubeHelper.swift */,
 				E8F973D11D36DC4C001DCB9E /* URLHelper.swift */,
 			);
 			name = Helpers;
@@ -289,7 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F973D61D36DC74001DCB9E /* TwitterHelper.swift in Sources */,
+				E86F3BF51D431B1F00F46261 /* YoutubeHelper.swift in Sources */,
 				E8F973D21D36DC4C001DCB9E /* URLHelper.swift in Sources */,
+				E86F3BF31D43183600F46261 /* LinkedInHelper.swift in Sources */,
 				E8F973A41D36DBFA001DCB9E /* ViewController.swift in Sources */,
 				E82AD4101D36EAE400A844EA /* SnapchatHelper.swift in Sources */,
 				E818DEF81D375A490035365A /* FacebookHelper.swift in Sources */,
@@ -444,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

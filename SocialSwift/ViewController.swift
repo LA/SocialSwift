@@ -22,7 +22,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     }
     
     @IBAction func openTwitter(sender: UIButton) {
-        TwitterHelper.openProfile(ofUsername: "AdarButel", withID: nil)
+        TwitterHelper.openTimeline()
     }
     
     @IBAction func openInstagram(sender: UIButton) {
@@ -30,16 +30,24 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     }
     
     @IBAction func openSnapchat(sender: UIButton) {
-        SnapchatHelper.add(user: "promise")
+        SnapchatHelper.openApp()
     }
     
     @IBAction func openFacebook(sender: UIButton) {
-        FacebookHelper.openEvents()
+        FacebookHelper.openFeed()
+    }
+    
+    @IBAction func openLinkedIn(sender: UIButton) {
+        LinkedInHelper.openApp()
+    }
+    
+    @IBAction func openYoutube(sender: UIButton) {
+        YoutubeHelper.openApp()
     }
     
     // Open Text
     @IBAction func openSMS(sender: UIButton) {
-        let msgVC = SMSHelper.send(message: "Hello", toRecipients: [])
+        let msgVC = SMSHelper.send(message: "Hello", toRecipients: nil)
         msgVC.messageComposeDelegate = self
         self.presentViewController(msgVC, animated: true, completion: nil)
     }
@@ -58,6 +66,4 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
         }
         controller.dismissViewControllerAnimated(true, completion: nil)
     }
-    
 }
-
