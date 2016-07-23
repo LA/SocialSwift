@@ -7,6 +7,7 @@ Social Media Actions in Swift
 * Twitter Helper (7 Methods)
 * Snapchat Helper (2 Methods)
 * Facebook Helper (7 Methods)
+* SMS Helper (1 Method)
 * URLHelper
 
 ## How to Use SocialSwift
