@@ -9,9 +9,7 @@
 import Foundation
 
 class SnapchatHelper {
-    
-    let urlHelper = URLHelper()
-    
+        
     static func openApp() {
         if let openURL = NSURL.init(string: "snapchat://") {
             URLHelper.openAction(withURL: openURL)

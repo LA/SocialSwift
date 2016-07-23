@@ -22,3 +22,7 @@ Version 0.25
 
 * Added 3 methods to FacebookHelper
 * Changed all methods to static methods
+- - - - - - - - - - - - - - - - - - - -
+Version 0.3
+
+* Added SMSHelper (1 Method)

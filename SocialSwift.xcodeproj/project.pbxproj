@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E818DEF81D375A490035365A /* FacebookHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E818DEF71D375A490035365A /* FacebookHelper.swift */; };
+		E81E14641D42F17B00FC02FE /* SMSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81E14631D42F17B00FC02FE /* SMSHelper.swift */; };
 		E82AD40E1D36E96A00A844EA /* Updates in Resources */ = {isa = PBXBuildFile; fileRef = E82AD40D1D36E96A00A844EA /* Updates */; };
 		E82AD4101D36EAE400A844EA /* SnapchatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */; };
 		E8F973A21D36DBFA001DCB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		E818DEF71D375A490035365A /* FacebookHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookHelper.swift; sourceTree = "<group>"; };
+		E81E14631D42F17B00FC02FE /* SMSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSHelper.swift; sourceTree = "<group>"; };
 		E82AD40D1D36E96A00A844EA /* Updates */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Updates; sourceTree = "<group>"; };
 		E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatHelper.swift; sourceTree = "<group>"; };
 		E8F9739E1D36DBFA001DCB9E /* SocialSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E86F3BF11D42F87000F46261 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E818DEF71D375A490035365A /* FacebookHelper.swift */,
+				E8F973D31D36DC61001DCB9E /* InstagramHelper.swift */,
+				E8F973D51D36DC74001DCB9E /* TwitterHelper.swift */,
+				E81E14631D42F17B00FC02FE /* SMSHelper.swift */,
+				E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */,
+				E8F973D11D36DC4C001DCB9E /* URLHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		E8F973951D36DBFA001DCB9E = {
 			isa = PBXGroup;
 			children = (
@@ -110,11 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */,
-				E818DEF71D375A490035365A /* FacebookHelper.swift */,
-				E8F973D31D36DC61001DCB9E /* InstagramHelper.swift */,
-				E8F973D51D36DC74001DCB9E /* TwitterHelper.swift */,
-				E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */,
-				E8F973D11D36DC4C001DCB9E /* URLHelper.swift */,
+				E86F3BF11D42F87000F46261 /* Helpers */,
 				E8F973A31D36DBFA001DCB9E /* ViewController.swift */,
 				E82AD40D1D36E96A00A844EA /* Updates */,
 				E8F973A51D36DBFA001DCB9E /* Main.storyboard */,
@@ -282,6 +293,7 @@
 				E8F973A41D36DBFA001DCB9E /* ViewController.swift in Sources */,
 				E82AD4101D36EAE400A844EA /* SnapchatHelper.swift in Sources */,
 				E818DEF81D375A490035365A /* FacebookHelper.swift in Sources */,
+				E81E14641D42F17B00FC02FE /* SMSHelper.swift in Sources */,
 				E8F973D41D36DC61001DCB9E /* InstagramHelper.swift in Sources */,
 				E8F973A21D36DBFA001DCB9E /* AppDelegate.swift in Sources */,
 			);

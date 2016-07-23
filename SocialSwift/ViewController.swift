@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,5 +36,28 @@ class ViewController: UIViewController {
     @IBAction func openFacebook(sender: UIButton) {
         FacebookHelper.openEvents()
     }
+    
+    // Open Text
+    @IBAction func openSMS(sender: UIButton) {
+        let msgVC = SMSHelper.send(message: "Hello", toRecipients: [])
+        msgVC.messageComposeDelegate = self
+        self.presentViewController(msgVC, animated: true, completion: nil)
+    }
+    
+    //MARK: - MFMessageComposeViewControllerDelegate Methods
+    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
+        switch result.rawValue {
+        case MessageComposeResultCancelled.rawValue:
+            print("Message Cancelled")
+        case MessageComposeResultFailed.rawValue:
+            print("Message Failed")
+        case MessageComposeResultSent.rawValue:
+            print("Message Succeded")
+        default:
+            break
+        }
+        controller.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
 }
 

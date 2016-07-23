@@ -18,44 +18,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPv-r5-NOo">
-                                <rect key="frame" x="277" y="168" width="48" height="30"/>
+                                <rect key="frame" x="277" y="93" width="48" height="30"/>
                                 <state key="normal" title="Twitter"/>
                                 <connections>
                                     <action selector="openTwitter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qWr-Mc-Uxe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7S6-dv-nga">
-                                <rect key="frame" x="266" y="259" width="69" height="30"/>
+                                <rect key="frame" x="266" y="184" width="69" height="30"/>
                                 <state key="normal" title="Instagram"/>
                                 <connections>
                                     <action selector="openInstagram:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p4x-Rp-KK2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLm-M1-BxN">
-                                <rect key="frame" x="268" y="347" width="65" height="30"/>
+                                <rect key="frame" x="268" y="272" width="65" height="30"/>
                                 <state key="normal" title="Snapchat"/>
                                 <connections>
                                     <action selector="openSnapchat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QYf-sI-DNa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYL-wH-WM2">
-                                <rect key="frame" x="267" y="418" width="67" height="30"/>
+                                <rect key="frame" x="267" y="343" width="67" height="30"/>
                                 <state key="normal" title="Facebook"/>
                                 <connections>
                                     <action selector="openFacebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4A6-ec-k9j"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxx-Zf-ISr">
+                                <rect key="frame" x="284" y="428" width="32" height="30"/>
+                                <state key="normal" title="SMS"/>
+                                <connections>
+                                    <action selector="openSMS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FIj-aH-KOG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wYL-wH-WM2" firstAttribute="centerX" secondItem="jLm-M1-BxN" secondAttribute="centerX" id="HDg-M7-dJN"/>
-                            <constraint firstItem="XPv-r5-NOo" firstAttribute="centerX" secondItem="7S6-dv-nga" secondAttribute="centerX" id="WpI-26-wNf"/>
-                            <constraint firstItem="jLm-M1-BxN" firstAttribute="top" secondItem="7S6-dv-nga" secondAttribute="bottom" constant="58" id="X1Q-FH-mov"/>
-                            <constraint firstItem="wYL-wH-WM2" firstAttribute="top" secondItem="jLm-M1-BxN" secondAttribute="bottom" constant="41" id="aPt-bU-4bE"/>
-                            <constraint firstItem="XPv-r5-NOo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="148" id="e9I-lB-uUi"/>
-                            <constraint firstItem="7S6-dv-nga" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fYP-H6-zRE"/>
-                            <constraint firstItem="7S6-dv-nga" firstAttribute="top" secondItem="XPv-r5-NOo" secondAttribute="bottom" constant="61" id="qMQ-2d-Bgt"/>
-                            <constraint firstItem="7S6-dv-nga" firstAttribute="centerX" secondItem="jLm-M1-BxN" secondAttribute="centerX" id="ykj-uE-np1"/>
+                            <constraint firstItem="7S6-dv-nga" firstAttribute="centerX" secondItem="jLm-M1-BxN" secondAttribute="centerX" id="3Az-Fd-yln"/>
+                            <constraint firstItem="wYL-wH-WM2" firstAttribute="top" secondItem="jLm-M1-BxN" secondAttribute="bottom" constant="41" id="6ha-ei-DVn"/>
+                            <constraint firstItem="wYL-wH-WM2" firstAttribute="centerX" secondItem="Mxx-Zf-ISr" secondAttribute="centerX" id="9bM-KF-3nT"/>
+                            <constraint firstItem="jLm-M1-BxN" firstAttribute="top" secondItem="7S6-dv-nga" secondAttribute="bottom" constant="58" id="Ap1-C2-Azx"/>
+                            <constraint firstItem="jLm-M1-BxN" firstAttribute="centerX" secondItem="wYL-wH-WM2" secondAttribute="centerX" id="IHE-Yl-86C"/>
+                            <constraint firstItem="Mxx-Zf-ISr" firstAttribute="top" secondItem="wYL-wH-WM2" secondAttribute="bottom" constant="55" id="Nln-IS-wga"/>
+                            <constraint firstItem="7S6-dv-nga" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YxU-wd-p0N"/>
+                            <constraint firstItem="XPv-r5-NOo" firstAttribute="centerX" secondItem="7S6-dv-nga" secondAttribute="centerX" id="bnp-0a-M3N"/>
+                            <constraint firstItem="XPv-r5-NOo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="73" id="qEj-aC-BL2"/>
+                            <constraint firstItem="7S6-dv-nga" firstAttribute="top" secondItem="XPv-r5-NOo" secondAttribute="bottom" constant="61" id="sbw-w2-rnI"/>
                         </constraints>
                     </view>
                 </viewController>
