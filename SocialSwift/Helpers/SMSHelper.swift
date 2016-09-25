@@ -10,13 +10,11 @@ import MessageUI
 
 class SMSHelper: UIViewController {
     
-    static func send(message msg: String, toRecipients rec: [String]?) -> MFMessageComposeViewController {
+    static func send(_ msg: String, to recipients: [String]?) -> MFMessageComposeViewController {
         let messageVC = MFMessageComposeViewController()
         messageVC.body = msg
-        messageVC.recipients = rec
+        messageVC.recipients = recipients
         
         return messageVC
-        
-        //presentViewController(messageVC, animated: true, completion: nil)
     }
 }

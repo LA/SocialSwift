@@ -21,49 +21,50 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func openTwitter(sender: UIButton) {
+    // MARK: - Helper Button Methods
+    @IBAction func openTwitter(_ sender: UIButton) {
         TwitterHelper.openTimeline()
     }
     
-    @IBAction func openInstagram(sender: UIButton) {
+    @IBAction func openInstagram(_ sender: UIButton) {
         InstagramHelper.openApp()
     }
     
-    @IBAction func openSnapchat(sender: UIButton) {
+    @IBAction func openSnapchat(_ sender: UIButton) {
         SnapchatHelper.openApp()
     }
     
-    @IBAction func openFacebook(sender: UIButton) {
+    @IBAction func openFacebook(_ sender: UIButton) {
         FacebookHelper.openFeed()
     }
     
-    @IBAction func openLinkedIn(sender: UIButton) {
+    @IBAction func openLinkedIn(_ sender: UIButton) {
         LinkedInHelper.openApp()
     }
     
-    @IBAction func openYoutube(sender: UIButton) {
+    @IBAction func openYoutube(_ sender: UIButton) {
         YoutubeHelper.openApp()
     }
     
     // Open Text
-    @IBAction func openSMS(sender: UIButton) {
-        let msgVC = SMSHelper.send(message: "Hello", toRecipients: nil)
+    @IBAction func openSMS(_ sender: UIButton) {
+        let msgVC = SMSHelper.send("Hello", to: nil)
         msgVC.messageComposeDelegate = self
-        self.presentViewController(msgVC, animated: true, completion: nil)
+        self.present(msgVC, animated: true, completion: nil)
     }
     
-    //MARK: - MFMessageComposeViewControllerDelegate Methods
-    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
+    // MARK: - Message Protocol Methods
+    func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         switch result.rawValue {
-        case MessageComposeResultCancelled.rawValue:
+        case MessageComposeResult.cancelled.rawValue:
             print("Message Cancelled")
-        case MessageComposeResultFailed.rawValue:
+        case MessageComposeResult.failed.rawValue:
             print("Message Failed")
-        case MessageComposeResultSent.rawValue:
+        case MessageComposeResult.sent.rawValue:
             print("Message Succeded")
         default:
             break
         }
-        controller.dismissViewControllerAnimated(true, completion: nil)
+        controller.dismiss(animated: true, completion: nil)
     }
 }

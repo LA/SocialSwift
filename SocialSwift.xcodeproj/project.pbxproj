@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E818DEF81D375A490035365A /* FacebookHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E818DEF71D375A490035365A /* FacebookHelper.swift */; };
-		E81E14641D42F17B00FC02FE /* SMSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81E14631D42F17B00FC02FE /* SMSHelper.swift */; };
 		E82AD40E1D36E96A00A844EA /* Updates in Resources */ = {isa = PBXBuildFile; fileRef = E82AD40D1D36E96A00A844EA /* Updates */; };
-		E82AD4101D36EAE400A844EA /* SnapchatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */; };
-		E86F3BF31D43183600F46261 /* LinkedInHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BF21D43183600F46261 /* LinkedInHelper.swift */; };
-		E86F3BF51D431B1F00F46261 /* YoutubeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BF41D431B1F00F46261 /* YoutubeHelper.swift */; };
+		E86F3BFF1D44150C00F46261 /* FacebookHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BF71D44150C00F46261 /* FacebookHelper.swift */; };
+		E86F3C001D44150C00F46261 /* InstagramHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BF81D44150C00F46261 /* InstagramHelper.swift */; };
+		E86F3C011D44150C00F46261 /* LinkedInHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BF91D44150C00F46261 /* LinkedInHelper.swift */; };
+		E86F3C021D44150C00F46261 /* SMSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BFA1D44150C00F46261 /* SMSHelper.swift */; };
+		E86F3C031D44150C00F46261 /* SnapchatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BFB1D44150C00F46261 /* SnapchatHelper.swift */; };
+		E86F3C041D44150C00F46261 /* TwitterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BFC1D44150C00F46261 /* TwitterHelper.swift */; };
+		E86F3C051D44150C00F46261 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BFD1D44150C00F46261 /* URLHelper.swift */; };
+		E86F3C061D44150C00F46261 /* YoutubeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F3BFE1D44150C00F46261 /* YoutubeHelper.swift */; };
 		E8F973A21D36DBFA001DCB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */; };
 		E8F973A41D36DBFA001DCB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973A31D36DBFA001DCB9E /* ViewController.swift */; };
 		E8F973A71D36DBFA001DCB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F973A51D36DBFA001DCB9E /* Main.storyboard */; };
@@ -20,9 +23,6 @@
 		E8F973AC1D36DBFA001DCB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F973AA1D36DBFA001DCB9E /* LaunchScreen.storyboard */; };
 		E8F973B71D36DBFA001DCB9E /* SocialSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973B61D36DBFA001DCB9E /* SocialSwiftTests.swift */; };
 		E8F973C21D36DBFA001DCB9E /* SocialSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973C11D36DBFA001DCB9E /* SocialSwiftUITests.swift */; };
-		E8F973D21D36DC4C001DCB9E /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973D11D36DC4C001DCB9E /* URLHelper.swift */; };
-		E8F973D41D36DC61001DCB9E /* InstagramHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973D31D36DC61001DCB9E /* InstagramHelper.swift */; };
-		E8F973D61D36DC74001DCB9E /* TwitterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F973D51D36DC74001DCB9E /* TwitterHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E818DEF71D375A490035365A /* FacebookHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookHelper.swift; sourceTree = "<group>"; };
-		E81E14631D42F17B00FC02FE /* SMSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSHelper.swift; sourceTree = "<group>"; };
 		E82AD40D1D36E96A00A844EA /* Updates */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Updates; sourceTree = "<group>"; };
-		E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatHelper.swift; sourceTree = "<group>"; };
-		E86F3BF21D43183600F46261 /* LinkedInHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInHelper.swift; sourceTree = "<group>"; };
-		E86F3BF41D431B1F00F46261 /* YoutubeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeHelper.swift; sourceTree = "<group>"; };
+		E86F3BF71D44150C00F46261 /* FacebookHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookHelper.swift; sourceTree = "<group>"; };
+		E86F3BF81D44150C00F46261 /* InstagramHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramHelper.swift; sourceTree = "<group>"; };
+		E86F3BF91D44150C00F46261 /* LinkedInHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInHelper.swift; sourceTree = "<group>"; };
+		E86F3BFA1D44150C00F46261 /* SMSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSHelper.swift; sourceTree = "<group>"; };
+		E86F3BFB1D44150C00F46261 /* SnapchatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatHelper.swift; sourceTree = "<group>"; };
+		E86F3BFC1D44150C00F46261 /* TwitterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterHelper.swift; sourceTree = "<group>"; };
+		E86F3BFD1D44150C00F46261 /* URLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		E86F3BFE1D44150C00F46261 /* YoutubeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeHelper.swift; sourceTree = "<group>"; };
 		E8F9739E1D36DBFA001DCB9E /* SocialSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F973A31D36DBFA001DCB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,9 +65,6 @@
 		E8F973BD1D36DBFA001DCB9E /* SocialSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F973C11D36DBFA001DCB9E /* SocialSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSwiftUITests.swift; sourceTree = "<group>"; };
 		E8F973C31D36DBFA001DCB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8F973D11D36DC4C001DCB9E /* URLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
-		E8F973D31D36DC61001DCB9E /* InstagramHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramHelper.swift; sourceTree = "<group>"; };
-		E8F973D51D36DC74001DCB9E /* TwitterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,19 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E86F3BF11D42F87000F46261 /* Helpers */ = {
+		E86F3BF61D44150C00F46261 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				E818DEF71D375A490035365A /* FacebookHelper.swift */,
-				E8F973D31D36DC61001DCB9E /* InstagramHelper.swift */,
-				E8F973D51D36DC74001DCB9E /* TwitterHelper.swift */,
-				E86F3BF21D43183600F46261 /* LinkedInHelper.swift */,
-				E81E14631D42F17B00FC02FE /* SMSHelper.swift */,
-				E82AD40F1D36EAE400A844EA /* SnapchatHelper.swift */,
-				E86F3BF41D431B1F00F46261 /* YoutubeHelper.swift */,
-				E8F973D11D36DC4C001DCB9E /* URLHelper.swift */,
+				E86F3BF71D44150C00F46261 /* FacebookHelper.swift */,
+				E86F3BF81D44150C00F46261 /* InstagramHelper.swift */,
+				E86F3BF91D44150C00F46261 /* LinkedInHelper.swift */,
+				E86F3BFA1D44150C00F46261 /* SMSHelper.swift */,
+				E86F3BFB1D44150C00F46261 /* SnapchatHelper.swift */,
+				E86F3BFC1D44150C00F46261 /* TwitterHelper.swift */,
+				E86F3BFD1D44150C00F46261 /* URLHelper.swift */,
+				E86F3BFE1D44150C00F46261 /* YoutubeHelper.swift */,
 			);
-			name = Helpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		E8F973951D36DBFA001DCB9E = {
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F973A11D36DBFA001DCB9E /* AppDelegate.swift */,
-				E86F3BF11D42F87000F46261 /* Helpers */,
+				E86F3BF61D44150C00F46261 /* Helpers */,
 				E8F973A31D36DBFA001DCB9E /* ViewController.swift */,
 				E82AD40D1D36E96A00A844EA /* Updates */,
 				E8F973A51D36DBFA001DCB9E /* Main.storyboard */,
@@ -224,19 +224,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Adar Butel";
 				TargetAttributes = {
 					E8F9739D1D36DBFA001DCB9E = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = HG2XZ7RZT6;
+						LastSwiftMigration = 0800;
 					};
 					E8F973B11D36DBFA001DCB9E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E8F9739D1D36DBFA001DCB9E;
 					};
 					E8F973BC1D36DBFA001DCB9E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E8F9739D1D36DBFA001DCB9E;
 					};
 				};
@@ -294,15 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8F973D61D36DC74001DCB9E /* TwitterHelper.swift in Sources */,
-				E86F3BF51D431B1F00F46261 /* YoutubeHelper.swift in Sources */,
-				E8F973D21D36DC4C001DCB9E /* URLHelper.swift in Sources */,
-				E86F3BF31D43183600F46261 /* LinkedInHelper.swift in Sources */,
+				E86F3C011D44150C00F46261 /* LinkedInHelper.swift in Sources */,
+				E86F3C061D44150C00F46261 /* YoutubeHelper.swift in Sources */,
+				E86F3C041D44150C00F46261 /* TwitterHelper.swift in Sources */,
+				E86F3C021D44150C00F46261 /* SMSHelper.swift in Sources */,
+				E86F3C051D44150C00F46261 /* URLHelper.swift in Sources */,
+				E86F3C031D44150C00F46261 /* SnapchatHelper.swift in Sources */,
+				E86F3BFF1D44150C00F46261 /* FacebookHelper.swift in Sources */,
 				E8F973A41D36DBFA001DCB9E /* ViewController.swift in Sources */,
-				E82AD4101D36EAE400A844EA /* SnapchatHelper.swift in Sources */,
-				E818DEF81D375A490035365A /* FacebookHelper.swift in Sources */,
-				E81E14641D42F17B00FC02FE /* SMSHelper.swift in Sources */,
-				E8F973D41D36DC61001DCB9E /* InstagramHelper.swift in Sources */,
+				E86F3C001D44150C00F46261 /* InstagramHelper.swift in Sources */,
 				E8F973A21D36DBFA001DCB9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,8 +375,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -395,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,8 +423,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -435,9 +442,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -452,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -465,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -477,6 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialSwift.app/SocialSwift";
 			};
 			name = Debug;
@@ -489,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialSwift.app/SocialSwift";
 			};
 			name = Release;
@@ -500,6 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SocialSwift;
 			};
 			name = Debug;
@@ -511,6 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarbutel.SocialSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SocialSwift;
 			};
 			name = Release;

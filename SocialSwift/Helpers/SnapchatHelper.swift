@@ -11,14 +11,14 @@ import Foundation
 class SnapchatHelper {
         
     static func openApp() {
-        if let openURL = NSURL.init(string: "snapchat://") {
-            URLHelper.openAction(withURL: openURL)
+        if let openURL = URL.init(string: "snapchat://") {
+            URLHelper.openAction(with: openURL)
         }
     }
     
     static func add(user name: String) {
-        if let addURL = NSURL.init(string: "snapchat://add/\(name)") {
-            URLHelper.openAction(withURL: addURL)
+        if let addURL = URL.init(string: "snapchat://add/\(name)") {
+            URLHelper.openAction(with: addURL)
         }
     }
 }

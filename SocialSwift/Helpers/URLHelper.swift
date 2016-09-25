@@ -11,16 +11,16 @@ import UIKit
 
 class URLHelper {
     
-    static func schemeAvailable(scheme: String) -> Bool {
-        if let url = NSURL.init(string: scheme) {
-            return UIApplication.sharedApplication().canOpenURL(url)
+    static func schemeAvailable(_ scheme: String) -> Bool {
+        if let url = URL.init(string: scheme) {
+            return UIApplication.shared.canOpenURL(url)
         }
         return false
     }
     
-    static func openAction(withURL url: NSURL) {
+    static func openAction(with url: URL) {
         if schemeAvailable(url.absoluteString) {
-            UIApplication.sharedApplication().openURL(url)
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
 }
